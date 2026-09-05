@@ -1,5 +1,7 @@
 # AlchemyHelper
 
+> Версия: **0.0.1**
+
 Помощник для события «Алхимия» в GTA5RP.
 
 ## Возможности
@@ -17,6 +19,7 @@
 - `alchemy.json` — 720 элементов и рецепты.
 - `translations.json` — русские названия.
 - `alchemy_helper.spec` — конфигурация PyInstaller.
+- `VERSION` — текущая версия проекта.
 
 ## Запуск
 
@@ -31,7 +34,7 @@ py -m pip install pyinstaller
 pyinstaller --clean --noconfirm alchemy_helper.spec
 ```
 
-Готовый файл появится в `dist\\AlchemyHelper.exe`.
+Готовый файл появится в `dist\AlchemyHelper.exe`.
 
 ## Прогресс
 
